@@ -1,7 +1,80 @@
-
+body {
+  background-color: #785860;
+  font-family: 'Open Sans', sans-serif;
+}
 .container {
 	width: 1184px;
 	margin: 0 auto;
 	padding: 0;
+}
+.main-header {
+  display: flex;
+  position: relative;
+  min-height: 107px;
+  background-color: #785860;
+}
+.header-line::after {
+  content: "";
+  position: absolute;
+  top: 107px;
+  width: 100%;
+  border-bottom: 1px solid rgb(53, 39, 49, 0.2);
+}
+.logo {
+  margin: 42px 484px 0 2px;
+}
+.main-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  list-style: none;
+}
+.main-menu li {
+  margin-right: 50px;
+}
+.main-menu li:last-child {
+  margin-right: 25px;
+}
+.main-menu a {
+  display: block;
+  padding-top: 39px;
+  padding-bottom: 40px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+.main-menu a:hover {
+  border-bottom: 3px solid #ffffff;
+}
+.search {
+  position: absolute;
+  top: 29px;
+  right: -173px;
+}
+.search input[type="text"] {
+  box-sizing: border-box;
+  width: 220px;
+  height: 44px;
+  border-radius: 22px;
+  border: 1px solid #f2f2f2;
+  background-color: #ffffff;
+  padding-left: 28px;
+  color: #626262;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 74.54px;
+}
+.search::after {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 13px;
+  width: 14px;
+  height: 13px;
+  background: url("../img/search_loupe.png") no-repeat;
 }
 
