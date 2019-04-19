@@ -1,9 +1,13 @@
 body {
-  background-color: #785860;
   font-family: 'Open Sans', sans-serif;
+}
+.body-bg {
+  height: 990px;
+  background-color: #785860;
   background-image: url("../img/bg_header.png");
   background-repeat: no-repeat;
-  background-position: 127px -51px;
+  background-position: 102px -97px;
+  background-size: cover;
 }
 .container {
 	width: 1184px;
@@ -90,7 +94,7 @@ body {
   background: url("../img/search_loupe.png") no-repeat;
 }
 .wrapper {
-  min-height: 790px;
+  min-height: 518px;
 }
 .wrapper-inner {
   margin-top: 255px;
@@ -141,8 +145,11 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-top: 57px;
+  padding-left: 153px;
 }
 .features p {
+  margin-bottom: 21px;
   color: #ffffff;
   font-size: 15px;
   font-weight: 700;
@@ -150,13 +157,16 @@ body {
   text-transform: uppercase;
 }
 .features li {
-  width: 390px;
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 391px;
+  margin-left: 32px;
   color: #ffffff;
   font-size: 15px;
   font-weight: 400;
   line-height: 26.04px;
+}
+.features li:nth-child(3),
+.features li:nth-child(4) {
+  margin-top: 45px;
 }
 .started {
   background-color: #e7526b;
