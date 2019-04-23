@@ -2,10 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   width: 1600px;
   margin: 0 auto;
-  background-color: #785860;
-  background-image: url("../img/header_bg.png");
-  background-repeat: no-repeat;
-  background-position: top center;
+  background: #f7f1e8 url("../img/header_bg.png") no-repeat top center;
   background-size: 1600px 893px;
 }
 .container {
@@ -113,6 +110,7 @@ body {
   vertical-align: top;
   width: 280px;
   height: 60px;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 700;
   line-height: 60.13px;
@@ -124,7 +122,6 @@ body {
 .button-wrapper {
   margin-right: -7px;
   margin-top: 4px;
-  color: #ffffff;
   background-color: #8824cd;
 }
 .wrapper p {
@@ -169,9 +166,7 @@ body {
   margin-top: 45px;
 }
 .started {
-  background-color: #c15065;
-  background-image: url("../img/started_bg.png");
-  background-repeat: no-repeat;
+  background: #e7526b url("../img/started_bg.png") no-repeat 20% 100%;
   min-height: 540px;
 }
 .started-inner {
@@ -199,4 +194,73 @@ body {
   background-color: #ffffff;
   color: #d54c63;
 }
+.rubric {
+  display: flex;
+  background-color: #ffffff;
+}
+.rubric-img {
+  width: 630px;
+  height: 496px;
+  background: #e8d0d0 url("../img/rubric_hand.jpg") no-repeat 100% 0;
+}
+.rubric-news {
+  width: 650px;
+  padding: 55px 102px;
+}
+.rubric-heading {
+  margin-top: 33px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.rubric-news p:nth-child(2) {
+  margin-top: 2px;
+  font-size: 19px;
+  line-height: 31px;
+}
+.rubric-news p:nth-child(3) {
+  margin-top: 30px;
+  font-size: 15px;
+  line-height: 26px;
+}
+.image-stretch {
+  padding-top: 93px;
+  background: #0d5d1c url("../img/image_stretch_bg.png") no-repeat 18% 0%;
+}
+.image-content {
+  min-height: 457px;
+  padding: 1px 430px 0px;
+  text-align: center;
+  background-color: #521a66;
+  opacity: 0.8;
+}
+.image-heading {
+  margin: 86px 0px 10px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: -1px;
+}
+.image-content p + p {
+  margin-top: 23px;
+  color: #a87bb7;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: -0.2px;
+}
+.image-content p:last-child {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 17px;
+}
+.button-image-stretch {
+  margin-top: 7px;
+  background-color: #8824cd;
+}
+
 
