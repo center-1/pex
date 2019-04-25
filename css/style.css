@@ -21,6 +21,8 @@ body {
   overflow: hidden;
 }
 .main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   min-height: 107px;
@@ -37,8 +39,11 @@ body {
   margin: 42px 484px 0 2px;
 }
 .main-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0;
   padding: 0;
   width: 500px;
@@ -69,7 +74,8 @@ body {
   right: -173px;
 }
 .search input[type="text"] {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 220px;
   height: 44px;
   border-radius: 22px;
@@ -116,7 +122,8 @@ body {
   line-height: 60.13px;
   text-decoration: none;
   text-align: center;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+          box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
   border-radius: 30px;
 }
 .button-wrapper {
@@ -133,12 +140,16 @@ body {
   line-height: 17px;
 }
 .features {
+  position: relative;
   background-color: #2e3b4e;
   min-height: 510px;
 }
 .features ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -164,6 +175,15 @@ body {
 .features li:nth-child(3),
 .features li:nth-child(4) {
   margin-top: 45px;
+}
+.features::after {
+  position: absolute;
+  content: "";
+  width: 141px;
+  height: 72px;
+  top: 474px;
+  left: 731px;
+  background: url("../img/features_curve.png") no-repeat;
 }
 .started {
   background: #e7526b url("../img/started_bg.png") no-repeat 20% 100%;
@@ -196,6 +216,8 @@ body {
 }
 .rubric,
 .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #ffffff;
 }
