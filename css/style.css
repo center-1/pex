@@ -167,26 +167,23 @@ body {
 .features li {
   width: 391px;
   margin-left: 32px;
+  margin-bottom: 39px;
   color: #ffffff;
   font-size: 15px;
   font-weight: 400;
   line-height: 26.04px;
-}
-.features li:nth-child(3),
-.features li:nth-child(4) {
-  margin-top: 45px;
 }
 .features::after {
   position: absolute;
   content: "";
   width: 141px;
   height: 72px;
-  top: 474px;
+  bottom: -35px;
   left: 731px;
   background: url("../img/features_curve.png") no-repeat;
 }
 .started {
-  background: #e7526b url("../img/started_bg.png") no-repeat 20% 100%;
+  background: #e7526b url("../img/started_bg.png") no-repeat 20% -24px;
   min-height: 540px;
 }
 .started-inner {
@@ -256,8 +253,7 @@ body {
   background: #0d5d1c url("../img/image_stretch_bg.png") no-repeat 18% 0%;
 }
 .image-content {
-  min-height: 457px;
-  padding: 1px 430px 0px;
+  padding: 1px 430px 114px;
   text-align: center;
   background-color: rgb(82,26,102, 0.8);
 }
@@ -355,6 +351,7 @@ body {
 .contact-heading {
   margin: 0;
   padding-top: 71px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 26px;
   text-transform: uppercase;
