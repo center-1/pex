@@ -1,5 +1,12 @@
 # landing page «Pex»
 
-Макет
+задача:
+	сверстать статичный Landing page 
+	кроссбраузерность в последних версиях Chrome/Opera/Firefox/IE10+/Edge/Safari
 
-<img width="300" height="900" alt="" src="layout-Pex-psd.png">
+решение:
+	gрименены техники прогрессивного улучшения
+	оптимизация растровой и векторной графики
+	
+Софт - Photoshop/Avocode/Notepad++/Sublime Text/tinypng/FileOptimizer/svgo
+Технологии - html/css/git
