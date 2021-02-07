@@ -9,7 +9,7 @@
 +	оптимизация растровой и векторной графики  
 	
 **Софт**  
-+ Photoshop/Avocode/Notepad++/Sublime Text/tinypng/FileOptimizer/svgo
++ Photoshop/Avocode/Sublime Text/tinypng/FileOptimizer
 
 **Технологии**
-+ html/css/git
++ html/css/vanilla js/git
